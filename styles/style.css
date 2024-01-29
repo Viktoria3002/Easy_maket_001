@@ -1,0 +1,298 @@
+@font-face {
+    font-family: Inter;
+    src: url('../assets/font/INTER-REGULAR.OTF');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    all: unset;
+}
+
+body {
+    height: 100vh;
+    font-family: Inter;
+    color: black;
+    font-size: 16px;
+}
+
+.main__block-quoute,
+.main__numbers-block,
+.main__video,
+.main__offer,
+.main__block-services {
+    padding: 0 200px;
+
+}
+
+
+.header__block {
+    color: white;
+    background: url("../assets/img/Header_background.svg");
+    background-repeat: no-repeat; 
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 40px 200px 211px 200px;
+    margin-bottom: 190px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 202px;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.main__intro {
+    color: white; 
+}
+
+.header__logo {
+    font-size: 32px;
+}
+
+.header__navigation-list {
+    display: flex;
+    gap: 35px; 
+}
+
+.intro__title {
+    font-size: 96px;
+    margin: 0;
+    max-width: 936px;
+    margin-bottom: 32px;
+}
+
+.intro__button {
+    background-color: white;
+    color: black;
+    padding: 20px 63px;
+}
+
+.intro__description {
+    max-width: 468px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.main__number-mini-blocks {
+    font-size: 64px;
+    margin-bottom: 60px;
+}
+
+.main__number {
+    margin-bottom: 10px;
+}
+
+.main__numbers-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 190px;
+}
+
+.main__number-description {
+    font-size: 16px;
+    color:#838383;
+}
+
+.main__numbers-title {
+    font-size: 44px;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.main__numbers-right {
+    max-width: 570px;
+}
+
+.main__numbers-left {
+    max-width: 210px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
+
+.main__numbers-description {
+    margin:0;
+}
+
+.description {
+    margin-bottom: 28px;
+}
+
+.main__video-button {
+    position: relative;
+}
+
+.main__play-button {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+
+.main__video {
+    margin-bottom: 190px;
+}
+
+.main__offer {
+    margin-bottom: 190px;
+}
+
+.main__offer-description {
+    max-width: 570px;
+}
+
+.main__button {
+    background-color: black;
+    color: white;
+    padding: 20px 63px;
+}
+
+.main__offer-top,
+.main__offer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.main__offer-top {
+    margin-bottom: 120px;
+}
+
+.main__offer-title {
+    font-size: 24px;
+    color:#838383;
+    margin-bottom: 20px;
+}
+
+.main__offer-description {
+    margin-bottom: 60px;
+}
+
+.main__block-quoute {
+    margin-bottom: 190px;
+}
+
+blockquote {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 820px;
+}
+
+.main__title-quoute,
+.main__description-quoute-grey {
+    color: #838383;
+}
+
+.main__title-quoute {
+    margin-bottom: 50px;
+}
+
+.main__img-building {
+    width: 100%;
+}
+
+.main__slider-buildings {
+    margin-bottom: 190px;
+}
+
+.main__service-line {
+    border-bottom: 1px solid #1D1D1F;
+    opacity: 0.4;
+}
+
+.main__service-title,
+.footer__title-logo {
+    font-size: 32px;
+}
+
+.main__service-title {
+    white-space: nowrap;
+}
+
+.main__service-description {
+    color:  #838383;
+    max-width: 570px;
+}
+
+.main__text-block-service {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 70px 0;
+    gap: 15px;
+}
+
+.main__block-services {
+    margin-bottom: 190px;
+}
+
+.footer {
+    background-color:#1D1D1F;
+    color: white;
+    display: flex;
+    padding: 90px 200px 126px 200px;
+    justify-content: space-between;
+    gap: 222px;
+}
+
+.footer__title-logo {
+    margin-bottom: 48px;
+    max-width: 501px;
+}
+
+.footer__description {
+    color:#838383;
+    margin-bottom: 30px;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__email-adress {
+    color:#838383;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #838383;
+    padding-bottom: 24px;
+}
+
+.footer__line {
+    max-width: 570px;
+    border-bottom: 1px solid #838383;
+}
+
+.footer__email {
+    display: flex;
+    justify-content: flex-end;
+}
+
