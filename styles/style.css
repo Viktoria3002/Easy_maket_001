@@ -39,7 +39,6 @@ body {
 .main__offer,
 .main__block-services {
     padding: 0 200px;
-
 }
 
 
@@ -147,6 +146,8 @@ body {
 
 .main__video-button {
     position: relative;
+    width: 100%;
+    display: block;
 }
 
 .main__play-button {
